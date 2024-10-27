@@ -1,0 +1,137 @@
+body {
+    background-color: #e0e0e0;
+    margin: 0 auto;
+    width: 70%;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #666;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+}
+
+nav {
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    margin-bottom: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+main h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.gallery img {
+    width: 23%;
+    height: auto;
+    max-width: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+    color: white;
+    background-color: #666;
+    margin-top: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+/* Estilos específicos para a página de login */
+.login-main {
+    max-width: 300px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 100px auto; /* Adiciona margem superior para centralizar verticalmente */
+    border-radius: 10px;
+    text-align: center;
+}
+
+.login-main h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.login-main label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+}
+
+.login-main input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.login-main input:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    outline: none;
+}
+
+.login-main button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+.login-main button .material-icons {
+    vertical-align: middle;
+    margin-right: 5px;
+}
